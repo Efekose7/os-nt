@@ -1,0 +1,45 @@
+
+body {
+    background-color: #000000;
+    color: #00FF00;
+    font-family: "Courier New", Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, label {
+    color: #39FF14;
+    text-shadow: 0 0 5px #00FF00;
+}
+
+.container {
+    margin-top: 50px;
+    background-color: #111;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00ff00;
+}
+
+.form-control, .btn {
+    background-color: #000;
+    color: #00FF00;
+    border: 1px solid #00FF00;
+}
+
+.form-control:focus, .btn:hover {
+    box-shadow: 0 0 5px #00FF00;
+    border-color: #00FF00;
+}
+
+.output-box {
+    background-color: #000000;
+    color: #00FF00;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #00FF00;
+    box-shadow: 0 0 10px #00FF00;
+    white-space: pre-wrap;
+    max-height: 600px;
+    overflow-y: auto;
+    margin-top: 20px;
+}
