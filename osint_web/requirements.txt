@@ -3,3 +3,4 @@ requests
 whois
 dnspython
 colorama
+bs4
